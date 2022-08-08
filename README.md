@@ -1,2 +1,3 @@
-# algorithms_and_data_structure
-Algorithms and Data Structure in Python
+# Algorithms and Data Structure 
+This repository reproduces the basic algorithms and data structure. The code is written in Python   
+
