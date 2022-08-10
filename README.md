@@ -7,7 +7,7 @@ Email : limahin10@gmail.com
 This repository implements from scratch some classical algorithms and data structure in Python.
 - Binary Search 
 - Queue and Deque
-- Heapsort ascending and descending way
+- Heapsort in ascending and descending order
 - Insertion sort
 - Merge sort
 - Quicksort
