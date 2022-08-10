@@ -1,8 +1,8 @@
 # Algorithms and Data Structure
 
-Author : Djibril. Mboup  
-Role : Data Engineer/Scientist and Complex Systems Researcher  
-Email : limahin10@gmail.com  
+*Author* : Djibril. Mboup  
+*Role* : Data Engineer/Scientist and Complex Systems Researcher  
+*E-mail* : limahin10@gmail.com  
 
 This repository implements from scratch some classical algorithms and data structure in Python.
 - Binary Search 
