@@ -1,7 +1,7 @@
 # Algorithms and Data Structure
 
-Author : Djibril. Mboup
-Role : Data Engineer/Scientist and Complex Systems Researcher
+Author : Djibril. Mboup  
+Role : Data Engineer/Scientist and Complex Systems Researcher  
 Email : limahin10@gmail.com  
 
 This repository implements from scratch some classical algorithms and data structure in Python.
@@ -16,7 +16,7 @@ This repository implements from scratch some classical algorithms and data struc
 - Hashtable
 - Greatest Common Divisor(GCD) Euclid
 - Removing duplication and space in String
-- Matrx rotation
+- Matrix rotation
 - Binary Tree
 - Graph and Search
 
