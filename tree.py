@@ -65,6 +65,21 @@ class Tree:
         if self.right:
             self.right.print_preorder()
 
+    def max_depth(self, tree):
+        if tree is None:
+            return 0
+        else:
+            return 1 + max(self.max_depth(tree.left), self.max_depth(tree.right))
+
+    def min_depth(self, tree):
+        if tree is None:
+            return 0
+        else:
+            return 1 + min(self.min_depth(tree.left), self.min_depth(tree.right))
+
+    def is_balanced(self):
+        return self.max_depth() - self.min_depth() <= 1
+
 
 if __name__ == "__main__":
     root = Tree(27)
@@ -85,5 +100,5 @@ if __name__ == "__main__":
     else:
         print("{} is not found".format(val))
 
-
-
+    print("Max depth : {}".format(root.max_depth(root)))
+    print("Min depth : {}".format(root.min_depth(root)))

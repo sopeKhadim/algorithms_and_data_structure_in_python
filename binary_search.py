@@ -1,28 +1,28 @@
 ## Recursrive Binary search
-def binary_search_rec(tab, left, right, x):
+def binary_search_rec(tab, left, right, elem):
     if left > right:
         return -1
     else:
         mid = (left + right) // 2
-        if tab[mid] == x:
+        if tab[mid] == elem:
             return mid
-        elif tab[mid] > x:
-            return binary_search_rec(tab, left, mid - 1, x)
+        elif tab[mid] > elem:
+            return binary_search_rec(tab, left, mid - 1, elem)
         else:
-            return binary_search_rec(tab, mid + 1, right, x)
+            return binary_search_rec(tab, mid + 1, right, elem)
 
 
-# Iterative bianry search
+# Iterative binary search
 
-def binary_search_iter(tab, x):
+def binary_search_iter(tab, elem):
     left = 0
     right = len(tab) - 1
 
     while left <= right:
         mid = (left + right) // 2
-        if tab[mid] == x:
+        if tab[mid] == elem:
             return mid
-        elif tab[mid] > x:
+        elif tab[mid] > elem:
             right = mid - 1
         else:
             left = mid + 1

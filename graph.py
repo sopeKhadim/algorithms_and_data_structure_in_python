@@ -1,4 +1,4 @@
-from Node import Node
+from node import Node
 from queue import Queue
 from collections import deque
 
